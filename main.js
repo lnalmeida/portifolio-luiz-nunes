@@ -44,30 +44,30 @@ const swiper = new Swiper('.swiper-container', {
   keyboard: true,
   breakpoints: {
     767: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       setWrapperSize: true
     }
   }
 })
 
 /* ScrollReveal */
-scrollReveal = new ScrollReveal({
-  origin: top,
-  distance: '-20px',
-  duration: 700,
-  reset: true
-})
+// scrollReveal = new ScrollReveal({
+//   origin: top,
+//   distance: '-15px',
+//   duration: 200,
+//   reset: false
+// })
 
-scrollReveal.reveal(
-  `#home .image, #home .text,
-  #about .image, #about .text,
-  #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
-  #contact .text, #contact .links,
-  footer .brand, footer .social`,
-  { interval: 150 }
-)
-
+// scrollReveal.reveal(
+//   `#home .image, #home .text,
+//   #about .image, #about .text,
+//   #services header, #services .card,
+//   #contact .text, #contact .links,
+//   footer .brand, footer .social`,
+//   { interval: 100 }
+//   )
+  //#testimonials header, #testimonials .testimonials,
+  
 /* Botão voltar para o topo */
 
 const backToTopButton = document.querySelector('.back-to-top')

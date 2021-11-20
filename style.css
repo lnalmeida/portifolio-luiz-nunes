@@ -1,14 +1,9 @@
-
 /* RESET */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 a{
@@ -68,6 +63,7 @@ img {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -75,6 +71,7 @@ body {
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .title {
@@ -112,7 +109,7 @@ body {
 }
 
 .section {
-  padding: calc(2.95rem + var(--header-height)) 0;
+  padding: calc(3.95rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -155,7 +152,7 @@ body {
 }
 
 
-#header .toogle {
+#header .toggle {
   position: relative;
   right: 1.5rem;
 }
@@ -282,7 +279,7 @@ nav.show div.icon-close {
 /* HOME */
 
 #home {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #home .container {
@@ -434,32 +431,13 @@ gap: 1.5rem;
   color: var(--base-color);
 }
 
-#testimonials blockquote cite {
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  color: var(--text-color);
-  ;
-}
-
-#testimonials blockquote cite img {
-  width: 2rem;
-  height: 2rem;
-
-  object-fit: cover;
-  clip-path: circle();
-
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
-  margin-right: 0.5rem;
-}
-
 #testimonials blockquote p a {
   text-decoration: none;
 }
 
 #testimonials blockquote video {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 #testimonials blockquote video:hover {
 transform: scale(1.02);
@@ -650,7 +628,10 @@ transform: translateY(200%);
 
   main {
     margin-top: var(--header-height);
-    overflow-x: : hidden;
+  }
+
+  body {
+    overflow-x: hidden !important;
   }
 
 
