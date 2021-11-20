@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem Vindo ao meu portfólio - Luiz Nunes</title>
+    <!-- SWIPERJS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <nav class="container">
+        <a class="logo">Olá, sou Luiz Nunes, <span class="">Desenvolvedor Fullstack.</span></a>
+        <!-- MENU -->
+        <div class="menu">
+          <ul class="">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Hard Skills</a></li>
+            <li><a class="title" href="#services">Soft Skills</a></li>
+            <li><a class="title" href="#testimonials">Projetos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /MENU -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <!-- HEADER -->
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="./assets/perfil_linkedin400x400.jpeg"
+              alt="Foto de Luiz Nunes."
+            />
+          </div>
+
+          <div class="text">
+            <h2 class="title">Quem sou eu? Um pouco sobre mim...</h2>
+            <p>
+              Bem vindo! Eu me chamo Luiz Nunes, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor fullstack NodeJS freelancer. Sou muito obstinado quando tenho um problema a resolver, gosto de desafios e tenho sede em aprender. Trabalho na área de TI há mais de 20 anos, bastante tempo com infraestrutura de redes e servidores, já tendo atuado como programador Delphi e atualmente buscando voltar à área de desenvolvimento de software, algo que eu realmente gosto de fazer.
+
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- /HOME -->
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="./assets/habilidades.jpg"
+              alt="Código Javasctipt."
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Hard Skills</h2>
+            <p>
+              Lógica de programação, HTML, Javascript, CSS, jQuery, NodeJS, Typescript, ReactJS, React Native, versionamento de código com Git, Docker, Express, MongoDB e Bancos de Dados Relacionais tradicionais, como MySQL e Postgres, SQL, Object Pascal, POO, Programação funcional, básico de AWS, Azure e Firebase, dentre outras habilidades.
+        </div>
+      </section>
+      <!-- /ABOUT -->
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Soft Skills</h2>
+            <p class="subtitle text">
+              Durante os anos de trabalho,fui aprendendo a desenvolver algumas outras características da minha personalidade profissional, como ser amigável, organizado, responsável, focado, entre outras. Destas, destaco 3 principais: 
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="https://image.freepik.com/fotos-gratis/homem-saltando-sobre-o-impossivel-ou-possivel-sobre-o-penhasco-no-fundo-do-por-do-sol-ideia-de-conceito-de-negocios_1323-265.jpg" alt="Persistência" />
+              <h3 class="title">Persistência</h3>
+              <p>
+                Não abandono um problema sem solução, missão dada, é missão cumprida. 
+              </p>
+            </div>
+            <div class="card">
+              <img src="https://www.revistaadnormas.com.br/uploads/2019/06/eduardo2.jpg" alt="Pensamento Analítico">
+              <h3 class="title">Capacidade analítica</h3>
+              <p>
+                Habilidoso na solução de problemas complexo apenas analisando cenários e dividindo-os em partes, para que seja possível a solução de problemas mais simples.
+              </p>
+            </div>
+            <div class="card">
+              <img src="https://t4.ftcdn.net/jpg/01/26/50/49/240_F_126504945_fK9hwf5rpCPpp8eVnZ3Vw2Mw9kEA0MrV.jpg" alt="Aprendendo para ensinar">
+              <h3 class="title">Bom aluno, bom professor</h3>
+              <p>
+              Não basta ter sede de conhecimento se eu não for capaz de ensinar o que eu aprendi. Conhecimento não repassado é inerte. Da mesma forma que seu ávido em aprender, sou solícito em ensinar o que aprendo.
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /SERVICES -->
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Aqui estão alguns dos projetos que mais gostei de codar:</h2>
+          </header>
+          <!-- CARROUSSEL-->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <blockquote>
+                  <video src="./assets/move-it.webm" play loop></video>
+                  <p>
+                    App web gamificado tipo Pomodoro, para você que passa muito tempo na frente do PC trabalhando. Ele te lembra de fazer pequenos intervalos de tempo para relaxar e descansar e fazer alguns movimentos. NextJS, ReactJS, Hooks e Context API. Clique <a href="https://github.com/lnalmeida/nlw4-moveit-next" target="_blank">aqui</a> para visitar o repositório do projeto.
+                    
+                  </p>
+                </blockquote>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote>
+                  <video src="./assets/Discord-clone-UI.webm" play loop></video>
+                  <p>
+                    Clone UI do  famoso aplicativo Discord, o preferido entre devs e gamers. ReactJS, Typescript e Styled Components, veja o repositório do projeto clicando <a href="https://github.com/lnalmeida/discord_clone_ui">aqui</a>. 
+                  </p>
+                </blockquote>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote>
+                  <video src="./assets/dev_finance_video.webm" play loop></video>
+                  <p>
+                    My.finance é um aplicativo de controle financeiro simples, que usa o localStorage do su browser como BD. Desenvolcido com HTML, CSS e Vannila JS. Veja o repositório do projeto clicando <a href="https://github.com/lnalmeida/my.finance">aqui</a>.
+                  </p>
+                </blockquote>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote>
+                  <video src="./assets/weather app angular.webm" play loop></video>
+                  <p>
+                    My Weather Advisor é um app simples, que mostra o Clima atual na localidade do usuário ou na cidade que ele digitar na caixa de text. Desenvolvido com Angular 12. Clique <a href="https://github.com/lnalmeida/angular-weather-app">aqui</a> para visitar o repositório do projeto.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!--/CARROUSSEL-->
+          </div>
+        </div>
+      </section>
+      <!-- /TESTIMONIALS -->
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato comigo!</h2>
+            <p>
+              Entre em contato comigo, para críticas, sugestões ou só pra bater um papo mesmo. Vai ser um prazer atendê-lo(a).
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+552198338-5419&text=Oi! Viseu site e queria conversar com você."
+              class="button"
+              target="_blank"
+            >
+              <i class="icon-whatsapp"></i>Entrar em contato
+            </a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>21 98338-5419</li>
+              <li>
+                <i class="icon-map-pin"></i>São João de Meriti - RJ
+              </li>
+              <li><i class="icon-mail"></i>l.n.almeida.dev@outlook.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /CONTACT -->
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt"
+            >Luiz<span class="">Nunes</span>.</a>
+          <p>©2021 Luiz Nunes.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social grid">
+          <a href="https://www.instagram.com/lnalmeida.dev/" target="_blank">
+            <i class=" social-icon icon-instagram"></i>
+          </a>
+          <a href="https://github.com/lnalmeida/" target="_blank">
+            <i class="social-icon" data-feather="github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/luiz-n-almeida" target="_blank">
+            <i class="social-icon" data-feather="linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!--/FOOTER-->
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+    </script>
+    
+    <!-- HOME BUTTON-->
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- SCRIPTS -->
+
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- MAIN.JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
